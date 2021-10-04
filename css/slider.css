@@ -1,0 +1,305 @@
+/*.zoom {
+    overflow: hidden;
+}*/
+
+
+/*Navigation Arrows*/
+
+.card-nav {
+    width: 100%;
+    height: 80px;
+    font-size: 53px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-transition: margin .5s;
+    -o-transition: margin .5s;
+    transition: margin .5s;
+    /*margin-bottom: 2rem;*/
+    text-align: right;
+    margin-top: -16px;
+}
+
+.arrow {
+    cursor: pointer;
+    -webkit-transition: margin .5s;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    -o-transition: transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+.arrow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.arrow:active {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.arrow-left {
+    float: left;
+}
+
+.arrow-right {
+    float: right;
+}
+
+
+/*Cards*/
+
+.slider_container {
+    width: 420px;
+    height: 350px;
+    position: relative;
+    -webkit-perspective: 1500px;
+    perspective: 1450px;
+    margin: auto;
+    margin-top: 16px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.cards {
+    display: block;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: margin .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: translateZ(900px);
+    transform: translateZ(900px);
+}
+
+.cards li {
+    display: block;
+    position: absolute;
+    width: 310px;
+    height: 300px;
+    /*border-radius: 3px;*/
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1), 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, .1), 0 0 10px rgba(0, 0, 0, .1);
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+    background: white;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+/*Cards Mobile*/
+
+@media screen and (max-width: 767px) {
+    .section-container-7 .shared-container {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+    .section-container-2 .cta-more .cta-more-label {
+        margin-left: 42px;
+    }
+    .cards li {
+        width: 230px;
+        height: 230px;
+    }
+    .slider_container {
+        width: 320px;
+        height: 290px;
+    }
+    .carousel-img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.cards .corner {
+    font-size: 25px;
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    font-family: Lora, serif;
+}
+
+.cards h2 {
+    font-family: Lora, serif;
+}
+
+.cards h2::before {
+    content: "";
+    margin: auto;
+    display: block;
+    width: 350px;
+    height: 1px;
+    background: black;
+}
+
+.cards h2::after {
+    content: "";
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: black;
+}
+
+.section-container-8 .cta-more-box {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #4A4A4A;
+    border-radius: 50%;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    display: inline-block;
+}
+
+.section-container-8 .cta-more-arrow {
+    position: absolute;
+    top: 28px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.card-nav .img-arrow-right {
+    width: 1.3em;
+    padding: 0 20px;
+    position: absolute;
+}
+
+.card-nav .img-arrow-left {
+    width: 1.3em;
+    padding: 0 20px;
+    position: absolute;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.cta-more-box.arrow.arrow-right {
+    float: right;
+}
+
+.cta-more-box.arrow.arrow-left {
+    float: left;
+}
+
+.text-center,
+.text-center-2 {
+    text-align: center;
+}
+
+.section-container-8 .arrow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.cards li {
+    overflow: hidden;
+    padding: 0;
+}
+
+.cards .img-container,
+.cards .img-container a {
+    /* cursor: none !important; */
+}
+
+.cards .img-container img {
+    -webkit-transition: -webkit-transform 0.6s ease;
+    transition: -webkit-transform 0.6s ease;
+    -o-transition: transform 0.6s ease;
+    transition: transform 0.6s ease;
+    transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
+
+.cards .img-container:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/*Ipad adjustments*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mobile-padding {
+        padding: 0 8%;
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1280px) {
+        .mobile-padding {
+            padding: 0 5%;
+        }
+    }
+    @media screen and (min-width: 2500px) {
+        .carousel {
+            overflow: hidden;
+        }
+        .leading {
+            position: relative;
+            top: 3%;
+        }
+    }
+    /*Override CSS for mobile*/
+    @media screen and (max-width: 767px) {
+        .slider_container {
+            margin-top: 10px !important;
+        }
+    }
+    /*For SE and below*/
+    @media screen and (max-width: 320px) {
+        .slider_container {
+            padding-left: 0;
+            padding-right: 40px;
+        }
+    }
+    @media screen and (max-width: 280px) {
+        .slider_container {
+            left: -22px;
+        }
+    }
+    /*Carousel ipad*/
+    @media only screen and (max-width: 999px) and (min-width: 768px) {
+        .slider_container {
+            width: 300px;
+            height: 250px;
+        }
+        .cards li {
+            width: 220px;
+            height: 200px;
+        }
+        /*.card-nav .img-arrow-right, .card-nav .img-arrow-left {
+		width: 0.9em !important;
+	}
+	.section-container-8 .cta-more-arrow {
+		top: .35em !important;	
+	}*/
+    }
+    @media only screen and (max-width: 1040px) and (min-width: 1000px) {
+        .slider_container {
+            width: 330px;
+        }
+        .cards li {
+            width: 220px;
+            height: 200px;
+        }
+    }
+    @media only screen and (max-width: 1320px) and (min-width: 1025px) {
+        .zoom {
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="80px" height="71px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 21400 19000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2430460200672">
+   <rect fill="white" x="7500" y="4000" width="3600" height="3600"/>
+   <rect fill="white" x="7500" y="11300" width="3600" height="3600"/>
+   <rect fill="white" x="11100" y="7700" width="3600" height="3600"/>
+  </g>
+  <path fill="white" fill-rule="nonzero" d="M2600 18200c200,0 300,200 300,400 0,200 -100,400 -300,400l-2200 0c-200,0 -400,-200 -400,-400l0 -18200c0,-200 200,-400 400,-400l2200 0c200,0 300,200 300,400 0,200 -100,400 -300,400l-1800 0 0 17400 1800 0z"/>
+  <path fill="white" fill-rule="nonzero" d="M18800 19000c-200,0 -400,-200 -400,-400 0,-200 200,-400 400,-400l1800 0 0 -17400 -1800 0c-200,0 -400,-200 -400,-400 0,-200 200,-400 400,-400l2200 0c200,0 400,200 400,400l0 18200c0,200 -200,400 -400,400l-2200 0z"/>
+ </g>
+</svg>
