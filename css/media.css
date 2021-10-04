@@ -167,7 +167,7 @@
     .clip_path {
         display: unset;
         position: absolute;
-        top: -1px;
+        top: -3px;
         left: -5vw;
         min-width: 110vw;
         min-height: 110vh;
