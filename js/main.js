@@ -145,7 +145,7 @@ function TranslateSetCookie(code) {
 // Services_animations
 
 ScrollTrigger.matchMedia({
-    "(max-width: 1024px)": function() {
+    "(min-width: 320px) and (max-width: 413px)": function() {
         // gsap.to(".services__title::after", {
         //     scrollTrigger: {
         //         trigger: "top__title",
@@ -263,6 +263,113 @@ ScrollTrigger.matchMedia({
             opacity: "1"
         })
 
+    },
+    "(min-width: 414px) and (max-width: 1024px)": function() {
+        gsap.to("._1", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top-=450% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+        gsap.to("._2", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top-=550% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+        gsap.to("._3", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top-=650% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+        gsap.to("._4", {
+            scrollTrigger: {
+                trigger: "._3",
+                start: "top-=750% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+        gsap.to("._5", {
+            scrollTrigger: {
+                trigger: "._4",
+                start: "top-=850% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+        gsap.to("._6", {
+            scrollTrigger: {
+                trigger: "._5",
+                start: "top-=950% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+
+        gsap.to(".approach__wrapper", {
+            scrollTrigger: {
+                trigger: ".approach__wrapper",
+                start: "top-=150% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "translateX(0%)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
+        gsap.to(".experience__wrapper", {
+            scrollTrigger: {
+                trigger: ".experience__wrapper",
+                start: "top-=150% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "translateX(0%)",
+            filter: "blur(0px)",
+            opacity: "1"
+        })
     },
     "(min-width: 1025px)": function() {
 

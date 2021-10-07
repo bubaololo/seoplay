@@ -8,10 +8,6 @@
 }
 
 @media (min-width: 414px) {
-    .header {
-        padding-top: 8vh;
-        margin-bottom: 12vh;
-    }
     .lang__selector {
         top: 90px;
     }
@@ -45,7 +41,7 @@
     }
     .services__title::after {
         height: 316px;
-        width: 66px;
+        width: 80px;
     }
     .header__menu::after {
         display: none;
@@ -65,8 +61,15 @@
 }
 
 @media (min-width: 640px) and (max-width:1024px) {
+    .lang__selector {
+        top: 13vh;
+        right: 7vw;
+    }
     .footer__wrapper {
         column-count: 2;
+    }
+    .footer__services {
+        break-after: column;
     }
     .footer__contacts {
         display: inline-block;
@@ -76,6 +79,14 @@
     }
     footer {
         margin-bottom: 0;
+        min-height: unset;
+    }
+}
+
+@media (min-width: 640px) {
+    .header {
+        padding-top: 8vh;
+        margin-bottom: 12vh;
     }
 }
 
