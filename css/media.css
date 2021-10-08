@@ -62,7 +62,7 @@
 
 @media (min-width: 640px) and (max-width:1024px) {
     .lang__selector {
-        top: 13vh;
+        top: 15vh;
         right: 7vw;
     }
     .footer__wrapper {

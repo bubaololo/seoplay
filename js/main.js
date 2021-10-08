@@ -487,7 +487,7 @@ ScrollTrigger.matchMedia({
 
             },
             backgroundColor: "rgba(253, 0, 219, 0)",
-            scale: 3
+            scale: 7
                 // display: "none"
         })
         gsap.to(".approach__wrapper", {
