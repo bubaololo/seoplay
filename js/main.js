@@ -160,7 +160,7 @@ ScrollTrigger.matchMedia({
         gsap.to("._1", {
             scrollTrigger: {
                 trigger: "._1",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                start: "top-=20% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
@@ -169,6 +169,19 @@ ScrollTrigger.matchMedia({
             transform: "perspective(600px) rotateX(0deg)",
             filter: "blur(0px)",
             opacity: "1"
+        })
+        gsap.to(".bgnd1", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+
+            filter: "blur(60px)",
+
         })
         gsap.to("._2", {
             scrollTrigger: {
@@ -183,6 +196,21 @@ ScrollTrigger.matchMedia({
             filter: "blur(0px)",
             opacity: "1"
         })
+
+
+        gsap.to(".bgnd2", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+
+            filter: "blur(60px)",
+
+        })
         gsap.to("._3", {
             scrollTrigger: {
                 trigger: "._3",
@@ -196,6 +224,21 @@ ScrollTrigger.matchMedia({
             filter: "blur(0px)",
             opacity: "1"
         })
+
+        gsap.to(".bgnd3", {
+            scrollTrigger: {
+                trigger: "._3",
+                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+
+            filter: "blur(60px)",
+
+        })
+
         gsap.to("._4", {
             scrollTrigger: {
                 trigger: "._4",
@@ -209,6 +252,21 @@ ScrollTrigger.matchMedia({
             filter: "blur(0px)",
             opacity: "1"
         })
+
+        gsap.to(".bgnd4", {
+            scrollTrigger: {
+                trigger: "._4",
+                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+
+            filter: "blur(60px)",
+
+        })
+
         gsap.to("._5", {
             scrollTrigger: {
                 trigger: "._5",
@@ -222,6 +280,22 @@ ScrollTrigger.matchMedia({
             filter: "blur(0px)",
             opacity: "1"
         })
+
+        gsap.to(".bgnd5", {
+            scrollTrigger: {
+                trigger: "._5",
+                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+
+            filter: "blur(60px)",
+
+        })
+
+
         gsap.to("._6", {
             scrollTrigger: {
                 trigger: "._6",
@@ -234,6 +308,20 @@ ScrollTrigger.matchMedia({
             transform: "perspective(600px) rotateX(0deg)",
             filter: "blur(0px)",
             opacity: "1"
+        })
+
+        gsap.to(".bgnd6", {
+            scrollTrigger: {
+                trigger: "._6",
+                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+
+            filter: "blur(60px)",
+
         })
 
         gsap.to(".approach__wrapper", {
@@ -376,45 +464,42 @@ ScrollTrigger.matchMedia({
 
 
 
-        // gsap.to("._1", {
-        //     scrollTrigger: {
-        //         trigger: "._1",
-        //         start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-        //         end: "+=50%",
-        //         markers: false,
-        //         scrub: 0.5
+        gsap.to("._1", {
+            scrollTrigger: {
+                trigger: ".clip_path",
+                start: "top top", // when the top of the trigger hits the top of the viewport
+                end: "+=50%",
+                markers: false,
+                scrub: 0.5
 
-        //     },
-        //     transform: "perspective(600px) rotateX(0deg)",
-        //     filter: "blur(0px)",
-        //     opacity: "1"
-        // })
-        // gsap.to("._2", {
-        //     scrollTrigger: {
-        //         trigger: "._2",
-        //         start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-        //         end: "+=50%",
-        //         markers: false,
-        //         scrub: 0.5
+            },
+            filter: "blur(0px)",
+            transform: "translateX(0%) translateY(0%)"
+        })
+        gsap.to("._2", {
+            scrollTrigger: {
+                trigger: ".clip_path",
+                start: "top top", // when the top of the trigger hits the top of the viewport
+                end: "+=50%",
+                markers: false,
+                scrub: 0.5
 
-        //     },
-        //     transform: "perspective(600px) rotateX(0deg)",
-        //     filter: "blur(0px)",
-        //     opacity: "1"
-        // })
-        // gsap.to("._3", {
-        //     scrollTrigger: {
-        //         trigger: "._3",
-        //         start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-        //         end: "+=50%",
-        //         markers: false,
-        //         scrub: 0.5
+            },
+            filter: "blur(0px)",
+            transform: "translateX(0%) translateY(0%)"
+        })
+        gsap.to("._3", {
+            scrollTrigger: {
+                trigger: ".clip_path",
+                start: "top top", // when the top of the trigger hits the top of the viewport
+                end: "+=50%",
+                markers: false,
+                scrub: 0.5
 
-        //     },
-        //     transform: "perspective(600px) rotateX(0deg)",
-        //     filter: "blur(0px)",
-        //     opacity: "1"
-        // })
+            },
+            filter: "blur(0px)",
+            transform: "translateX(0%) translateY(0%)"
+        })
 
 
 

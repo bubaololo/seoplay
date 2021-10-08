@@ -107,137 +107,167 @@
                 </div>
                 <div class="services__items_wrapper">
                     <div class="services__items_wrapper-top">
-                        <div class="services__item mobile_animation _1">
-                            <div class="services__item_top">
-                                <div class="services__item_top-title">
+                        <div class="services__item_wrapper-1">
+                            <img src="img/_1.svg" alt="" class="services_bgnd bgnd1">
+                            <div class="services__item mobile_animation _1">
+                                <div class="services__item_top">
+                                    <div class="services__item_top-title">
+                                        <div class="container">
+                                            Desarrollo de sitios web
+                                        </div>
+                                    </div>
                                     <div class="container">
-                                        Desarrollo de sitios web
+                                        <div class="services__item_top-subtitle">
+                                            <div class="top__subtitle-wrapper">
+                                                Diseño
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container">
-                                    <div class="services__item_top-subtitle">
-                                        <div class="top__subtitle-wrapper">
-                                            Diseño
+                                <div class="services__item_text_wrapper">
+                                    <div class="container">
+                                        <div class="services__item_text">
+                                            Más clientes nuevos con un diseño centrado en sus usuarios.
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="services__item_text_wrapper">
-                                <div class="container">
-                                    <div class="services__item_text">
-                                        Más clientes nuevos con un diseño centrado en sus usuarios.
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                        <div class="services__item mobile_animation _2">
-                            <div class="services__item_top">
-                                <div class="services__item_top-title">
+                        <div class="services__item_wrapper-2">
+                            <img src="img/_2.svg" alt="" class="services_bgnd bgnd2">
+                            <div class="services__item mobile_animation _2">
+                                <div class="services__item_top">
+                                    <div class="services__item_top-title">
+                                        <div class="container">
+                                            SEO
+                                        </div>
+                                    </div>
                                     <div class="container">
-                                        SEO
+                                        <div class="services__item_top-subtitle">
+                                            Optimización de motores de búsqueda
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container">
-                                    <div class="services__item_top-subtitle">
-                                        Optimización de motores de búsqueda
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__item_text_wrapper">
-                                <div class="container">
-                                    <div class="services__item_text">
-                                        Un requisito previo para que el sitio esté en todos los motores de búsqueda (Google, etc.) para atraer usuarios a su sitio. Le ayudaremos a tomar las primeras posiciones en los resultados de búsqueda de Google y a romper con la competencia. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services__item mobile_animation _3">
-                            <div class="services__item_top">
-                                <div class="services__item_top-title">
+                                <div class="services__item_text_wrapper">
                                     <div class="container">
-                                        SEO local
+                                        <div class="services__item_text">
+                                            Un requisito previo para que el sitio esté en todos los motores de búsqueda (Google, etc.) para atraer usuarios a su sitio. Le ayudaremos a tomar las primeras posiciones en los resultados de búsqueda de Google y a romper con la competencia. </div>
                                     </div>
-                                </div>
-                                <div class="container">
-                                    <div class="services__item_top-subtitle">
-                                        Google My Business
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__item_text_wrapper">
-                                <div class="container">
-                                    <div class="services__item_text">
-                                        GMB es una gran estrategia para una empresa local con un presupuesto ajustado. Empiece a aparecer con más frecuencia para los usuarios de Google Maps que necesitan sus servicios ahora. </div>
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="services__item_wrapper-3">
+                            <img src="img/_3.svg" alt="" class="services_bgnd bgnd3">
+                            <div class="services__item mobile_animation _3">
+                                <div class="services__item_top">
+                                    <div class="services__item_top-title">
+                                        <div class="container">
+                                            SEO local
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="services__item_top-subtitle">
+                                            Google My Business
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services__item_text_wrapper">
+                                    <div class="container">
+                                        <div class="services__item_text">
+                                            GMB es una gran estrategia para una empresa local con un presupuesto ajustado. Empiece a aparecer con más frecuencia para los usuarios de Google Maps que necesitan sus servicios ahora. </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div class="services__color_lens"></div>
                         <img src="/img/clip_path.svg" alt="" class="clip_path">
                     </div>
                     <div class="services__items_wrapper-bottom">
-                        <div class="services__item mobile_animation _4">
-                            <div class="services__item_top">
-                                <div class="services__item_top-title">
-                                    <div class="container">
-                                        Auditoría de sitios SEO
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="services__item_top-subtitle">
-                                        Análisis de la competencia
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__item_text_wrapper">
-                                <div class="container">
-                                    <div class="services__item_text">
-                                        Solucionamos errores técnicos en el sitio para un mejor posicionamiento en Google. Realizamos análisis compefitio, análisis de la usabilidad del sitio para proporcionarte acciones que aumenten el tráfico del ty sitio. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services__item mobile_animation _5">
-                            <div class="services__item_top">
-                                <div class="services__item_top-title">
-                                    <div class="container">
-                                        Construcción de enlaces
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="services__item_top-subtitle">
-                                        Compra de enlaces
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__item_text_wrapper">
-                                <div class="container">
+                        <div class="services__item_wrapper-4">
+                            <img src="img/_4.svg" alt="" class="services_bgnd bgnd4">
 
-                                    <div class="services__item_text">
-                                        Domain Rating (DR) mide la fuerza del perfil de backlinks de un sitio web en comparación con otros en nuestra base de datos en una escala de 100 puntos. Proporcionaremos backlinks de sitios web de alta DR porque tienen más "peso". </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services__item mobile_animation _6">
-                            <div class="services__item_top">
-                                <div class="services__item_top-title">
+                            <div class="services__item mobile_animation _4">
+                                <div class="services__item_top">
+                                    <div class="services__item_top-title">
+                                        <div class="container">
+                                            Auditoría de sitios SEO
+                                        </div>
+                                    </div>
                                     <div class="container">
-                                        Google ADS
+                                        <div class="services__item_top-subtitle">
+                                            Análisis de la competencia
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container">
-                                    <div class="services__item_top-subtitle">
-                                        Tráfico pagado de Google
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__item_text_wrapper">
-                                <div class="container">
-                                    <div class="services__item_text">
-                                        Cuando lanza anuncios de Google ADS, puede obtener clientes potenciales de inmediato. Una forma costosa pero probada de atraer clientes potenciales a su sitio web. Te audamos en tu estratejia de Google ADS
+                                <div class="services__item_text_wrapper">
+                                    <div class="container">
+                                        <div class="services__item_text">
+                                            Solucionamos errores técnicos en el sitio para un mejor posicionamiento en Google. Realizamos análisis compefitio, análisis de la usabilidad del sitio para proporcionarte acciones que aumenten el tráfico del ty sitio. </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="services__item_wrapper-5">
+                            <img src="img/_5.svg" alt="" class="services_bgnd bgnd5">
+
+                            <div class="services__item mobile_animation _5">
+                                <div class="services__item_top">
+                                    <div class="services__item_top-title">
+                                        <div class="container">
+                                            Construcción de enlaces
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="services__item_top-subtitle">
+                                            Compra de enlaces
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services__item_text_wrapper">
+                                    <div class="container">
+
+                                        <div class="services__item_text">
+                                            Domain Rating (DR) mide la fuerza del perfil de backlinks de un sitio web en comparación con otros en nuestra base de datos en una escala de 100 puntos. Proporcionaremos backlinks de sitios web de alta DR porque tienen más "peso". </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="services__item_wrapper-6">
+                            <img src="img/_6.svg" alt="" class="services_bgnd bgnd6">
+                            <div class="services__item mobile_animation _6">
+                                <div class="services__item_top">
+                                    <div class="services__item_top-title">
+                                        <div class="container">
+                                            Google ADS
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="services__item_top-subtitle">
+                                            Tráfico pagado de Google
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services__item_text_wrapper">
+                                    <div class="container">
+                                        <div class="services__item_text">
+                                            Cuando lanza anuncios de Google ADS, puede obtener clientes potenciales de inmediato. Una forma costosa pero probada de atraer clientes potenciales a su sitio web. Te audamos en tu estratejia de Google ADS
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
 
                 </div>
@@ -341,8 +371,7 @@
                                         <img src="img/txt.png" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
                                 </li>
 
-                                <li class="img-container img-container-9" data-case="brspro.co.uk" data-sub-title-link="https://brspro.co.uk/" data-sub-title="BRSpro | Building renovation services" data-description="Diseño de sitios web utilizando animaciones complejas."
-                                    style="transform: rotateY(-90deg) translateZ(-672px);">
+                                <li class="img-container img-container-9" data-case="brspro.co.uk" data-sub-title-link="https://brspro.co.uk/" data-sub-title="BRSpro | Building renovation services" data-description="Diseño de sitios web utilizando animaciones complejas." style="transform: rotateY(-90deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-9"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
                                         <img src="img/brspro.jpg" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
@@ -639,8 +668,8 @@
             <script src="/js/gsap.min.js"></script>
             <script src="/js/ScrollTrigger.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-            
-            
+
+
             <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
             <script src="/js/main.js"></script>
 

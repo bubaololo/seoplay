@@ -39,6 +39,9 @@
     .submid__wrapper {
         font-family: 'Roboto', sans-serif;
     }
+    .services_bgnd {
+        display: none;
+    }
     .services__title::after {
         height: 316px;
         width: 80px;
@@ -175,6 +178,9 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 1ch;
     }
+    .services__items_wrapper {
+        margin-top: 0;
+    }
     .services__items_wrapper-top {
         display: grid;
         position: relative;
@@ -217,47 +223,59 @@
         width: 110vw;
         min-height: 110vh;
     }
-    ._1 {
+    .services__item_wrapper-1 {
         grid-area: _1;
         /* transform: translateX(-60vw);
             filter: blur(15px); */
         place-self: end end;
-        transform: none;
-        opacity: unset;
-        filter: none;
     }
-    ._2 {
+    .services__item_wrapper-2 {
         grid-area: _2;
         place-self: start;
-        transform: none;
-        opacity: unset;
-        filter: none;
     }
-    ._3 {
+    .services__item_wrapper-3 {
         grid-area: _3;
         place-self: start end;
-        transform: none;
-        opacity: unset;
-        filter: none;
     }
-    ._4 {
+    .services__item_wrapper-4 {
         grid-area: _4;
         place-self: center end;
+    }
+    .services__item_wrapper-5 {
+        grid-area: _5;
+        place-self: start;
+    }
+    .services__item_wrapper-6 {
+        grid-area: _6;
+        place-self: start end;
+    }
+    ._1 {
+        transform: translateX(77%) translateY(243%);
+        opacity: unset;
+        filter: blur(20px);
+    }
+    ._2 {
+        transform: none;
+        opacity: unset;
+        filter: blur(20px);
+        transform: translateX(-38%) translateY(0%);
+    }
+    ._3 {
+        transform: none;
+        opacity: unset;
+        filter: blur(20px);
+        transform: translateX(77%) translateY(-140%);
+    }
+    ._4 {
+        transform: translateX(-60vw);
+        filter: blur(15px);
         z-index: 10;
+    }
+    ._5 {
         transform: translateX(-60vw);
         filter: blur(15px);
     }
-    ._5 {
-        grid-area: _5;
-        place-self: start;
-        z-index: 10;
-        transform: translateX(60vw);
-        filter: blur(15px);
-    }
     ._6 {
-        grid-area: _6;
-        place-self: start end;
-        z-index: 10;
         transform: translateX(-60vw);
         filter: blur(15px);
     }

@@ -238,6 +238,7 @@ header {
 
 .services__items_wrapper {
     color: #242c42;
+    margin-top: 30vh;
 }
 
 .clip_path {
@@ -278,7 +279,7 @@ header {
     position: relative;
     margin: 48px auto;
     overflow-y: hidden;
-    height: 0;
+    /* height: 0; */
     transform-origin: top;
     position: relative;
     transform: perspective(600px) rotateX(-90deg);
@@ -382,27 +383,34 @@ header {
     background-image: url(../img/bgnd6.svg);
 } */
 
-._1 {
-    min-height: 192px;
+.services__item_wrapper-1 {
+    min-height: 360px;
+    position: relative;
 }
 
-._2 {
+.services_bgnd {
+    position: absolute;
+    width: 100%;
+    filter: blur(0px);
+}
+
+.services__item_wrapper-2 {
     min-height: 400px;
 }
 
-._3 {
+.services__item_wrapper-3 {
     min-height: 360px;
 }
 
-._4 {
+.services__item_wrapper-4 {
     min-height: 360px;
 }
 
-._5 {
+.services__item_wrapper-5 {
     min-height: 400px;
 }
 
-._6 {
+.services__item_wrapper-6 {
     min-height: 400px;
 }
 
