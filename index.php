@@ -82,8 +82,8 @@
         <section class="services">
             <div class="services__wrapper">
                 <div class="container desktop_container">
-                    <h2 class="services__title animation">
-                        <!-- Tareas digitales que resolvemos -->
+                    <!-- <h2 class="services__title animation">
+                        
                         <svg class="intro animation" viewbox="0 0 200 86">
   <text text-anchor="start" x="0" y="30" class="text text-stroke" clip-path="url(#text1)">Tareas digitales</text>
   <text text-anchor="start" x="0" y="50" class="text text-stroke" clip-path="url(#text2)">que</text>
@@ -103,7 +103,7 @@
     </clipPath>
 </defs>
 </svg>
-                    </h2>
+                    </h2> -->
                 </div>
                 <div class="services__items_wrapper">
                     <div class="services__items_wrapper-top">
