@@ -607,6 +607,10 @@ footer {
     overflow-x: hidden;
 }
 
+footer .title {
+    margin: 0 0 24px 0;
+}
+
 .footer__wrapper {
     padding: 5vh 0;
     position: relative;

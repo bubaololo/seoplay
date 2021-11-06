@@ -1,5 +1,5 @@
 <header class="header">
-    <div class="container desktop_container">
+    <div class="container">
         <div class="header__inner">
             <a class="logo__link" href="/">
                 <img id="logo" src="/img/logo.svg" alt="logo">

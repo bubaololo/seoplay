@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="container desktop_container">
+    <div class="container wide_container">
         <div class="footer__wrapper">
             <img id="footer_logo" src="/img/footer_logo.svg" alt="logo">
             <div class="footer__services">
@@ -167,3 +167,7 @@
         </div>
     </div>
 </div>
+<!-- Start of txt.me widget code -->
+<script src="https://v2.txt.me/livechat/js/wrapper/763a26b6b94c40288f9aa8bb76d17072" async></script>
+<noscript><a href="https://txt.me/reviews/763a26b6b94c40288f9aa8bb76d17072" rel="nofollow">Rate 123 customer support</a>, powered by <a href="https://txt.me" rel="noopener nofollow" target="_blank">txt.me</a></noscript>
+<!-- End of txt.me widget code -->

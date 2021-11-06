@@ -50,7 +50,7 @@
 
         <section class="top">
             <div class="container">
-                <div class="top__text_wrapper desktop_container">
+                <div class="top__text_wrapper">
                     <h1 class="top__title">
                         Diseñamos, creamos, promovemos
                     </h1>
@@ -81,7 +81,7 @@
         </section>
         <section class="services">
             <div class="services__wrapper">
-                <div class="container desktop_container">
+                <div class="container fix_container">
                     <!-- <h2 class="services__title animation">
                         
                         <svg class="intro animation" viewbox="0 0 200 86">
@@ -279,7 +279,7 @@
         </section>
         <section class="submid">
             <div class="container">
-                <div class="submid__wrapper">
+                <div class="submid__wrapper fix_container">
                     <div class="approach__wrapper mobile_animation go">
                         <div class="approach__title title">
                             Método de Trabajo
@@ -382,7 +382,7 @@
                     </div>
                 </div>
 
-                <div class="slider__bottom_wrapper">
+                <div class="slider__bottom_wrapper fix_container">
                     <div class="container">
 
                         <div class="slider__bottom_arrows">
@@ -420,7 +420,7 @@
 
         <section class="faq">
             <div class="container">
-                <div class="faq__wrapper">
+                <div class="faq__wrapper wide_container">
                     <div class="faq__title title">FAQ</div>
 
                     <div class="faq__item">
@@ -494,11 +494,9 @@
         </section>
 
         <section class="articles">
-            <div class="container desktop_container">
+            <div class="container wide_container">
                 <div class="articles_title">
-                    <h2 class=" title">Artículos útiles de SEO</h2> <a href="/articles/" class="articles_title_link bubble__link">Más información sobre SEO<svg class="bubble_arrow">
-                        <path fill="##4A4A4A" d="M29.7204 7.07638C30.0456 6.75118 30.0456 6.22392 29.7204 5.89871L24.4208 0.599184C24.0956 0.273979 23.5684 0.273979 23.2432 0.599184C22.918 0.924389 22.918 1.45165 23.2432 1.77686L27.9539 6.48755L23.2432 11.1982C22.918 11.5234 22.918 12.0507 23.2432 12.3759C23.5684 12.7011 24.0956 12.7011 24.4208 12.3759L29.7204 7.07638ZM0.818359 7.32029L29.1315 7.32029L29.1315 5.65481L0.818359 5.65481L0.818359 7.32029Z"></path>
-                    </svg></a>
+                    <h2 class=" title">Artículos útiles de SEO</h2>
                 </div>
                 <div class="articles__wrapper">
                     <div class="article__item article_label1">
@@ -550,6 +548,11 @@
                             </p>
                         </div>
                     </div>
+                </div>
+                <div class="articles__bottom_link">
+                    <a href="/articles/" class="articles_title_link bubble__link">Más información sobre SEO<svg class="bubble_arrow">
+                        <path fill="##4A4A4A" d="M29.7204 7.07638C30.0456 6.75118 30.0456 6.22392 29.7204 5.89871L24.4208 0.599184C24.0956 0.273979 23.5684 0.273979 23.2432 0.599184C22.918 0.924389 22.918 1.45165 23.2432 1.77686L27.9539 6.48755L23.2432 11.1982C22.918 11.5234 22.918 12.0507 23.2432 12.3759C23.5684 12.7011 24.0956 12.7011 24.4208 12.3759L29.7204 7.07638ZM0.818359 7.32029L29.1315 7.32029L29.1315 5.65481L0.818359 5.65481L0.818359 7.32029Z"></path>
+                    </svg></a>
                 </div>
             </div>
 
