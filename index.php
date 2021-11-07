@@ -70,9 +70,10 @@
                     </div>
                 </div>
 
-                <a href="#" class="top__request_link bubble__link popup-link" data-hystmodal="#myModal">Envíe su solicitud<svg class="bubble_arrow">
-                <path fill="##4A4A4A" d="M29.7204 7.07638C30.0456 6.75118 30.0456 6.22392 29.7204 5.89871L24.4208 0.599184C24.0956 0.273979 23.5684 0.273979 23.2432 0.599184C22.918 0.924389 22.918 1.45165 23.2432 1.77686L27.9539 6.48755L23.2432 11.1982C22.918 11.5234 22.918 12.0507 23.2432 12.3759C23.5684 12.7011 24.0956 12.7011 24.4208 12.3759L29.7204 7.07638ZM0.818359 7.32029L29.1315 7.32029L29.1315 5.65481L0.818359 5.65481L0.818359 7.32029Z"></path>
-            </svg></a>
+                <a href="#" class="top__request_link bubble__link popup-link" data-hystmodal="#myModal">Envíe su solicitud
+                    <img src="img/img-arrow-right.svg" class="bubble_arrow" alt="arrow icon">
+
+        </a>
                 <div class="top__bottom_links">
                     <a href="#" class="top__news_link">Casos de éxito en SEO</a>
                     <a href="#portfolio_anchor" class="top__portfolio_link">portafolio</a>
@@ -273,9 +274,11 @@
                 </div>
 
             </div>
-            <a href="#" class="consult__request_link bubble__link" data-hystmodal="#myModal">Solicite una consulta<svg class="bubble_arrow">
-                    <path fill="##4A4A4A" d="M29.7204 7.07638C30.0456 6.75118 30.0456 6.22392 29.7204 5.89871L24.4208 0.599184C24.0956 0.273979 23.5684 0.273979 23.2432 0.599184C22.918 0.924389 22.918 1.45165 23.2432 1.77686L27.9539 6.48755L23.2432 11.1982C22.918 11.5234 22.918 12.0507 23.2432 12.3759C23.5684 12.7011 24.0956 12.7011 24.4208 12.3759L29.7204 7.07638ZM0.818359 7.32029L29.1315 7.32029L29.1315 5.65481L0.818359 5.65481L0.818359 7.32029Z"></path>
-                </svg></a>
+            <a href="#" class="consult__request_link bubble__link" data-hystmodal="#myModal">Solicite una consultoría
+
+                <img src="img/img-arrow-right.svg" class="bubble_arrow" alt="arrow icon">
+            
+            </a>
         </section>
         <section class="submid">
             <div class="container">
@@ -316,14 +319,14 @@
                                     style="transform: rotateY(0deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-1 onactive"><span>зига</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/1.png" class="carousel-img" alt="sitios web concretecoatings.expert foto" title="Creación de sitios web de los servicios de impermeabilización de Toronto"> </a>
+                                        <img src="img/1.png" loading="lazy" class="carousel-img" alt="sitios web concretecoatings.expert foto" title="Creación de sitios web de los servicios de impermeabilización de Toronto"> </a>
                                 </li>
 
                                 <li class="img-container img-container-2" data-case="businessadvisory.es" data-sub-title-link="" data-sub-title="Sitio web de consultoría empresarial" data-description="Una pequeña presentación de servicios con elementos creativos y desplazamiento horizontal."
                                     style="transform: rotateY(0deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-2 onactive"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/2.png" class="carousel-img" alt="sitios web businessadvisory.es foto" title="Creación de sitios web de consultoría empresarial"> </a>
+                                        <img src="img/2.png" loading="lazy" class="carousel-img" alt="sitios web businessadvisory.es foto" title="Creación de sitios web de consultoría empresarial"> </a>
                                 </li>
 
                                 <!--01/03/21-->
@@ -332,14 +335,14 @@
                                     style="transform: rotateY(-90deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-3 onactive"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/3.png" class="carousel-img" alt="sitios web cannabisbcn.com foto" title="Creación de sitios web de Agregados"> </a>
+                                        <img src="img/3.png" loading="lazy" class="carousel-img" alt="sitios web cannabisbcn.com foto" title="Creación de sitios web de Agregados"> </a>
                                 </li>
 
                                 <li class="img-container img-container-4" data-case="attractor.es" data-sub-title-link="" data-sub-title="Compañía de construcción" data-description="Una empresa de arquitectura, diseño de interiores e inmobiliaria especializada en crear lugares maravillosos para vivir, trabajar y divertirse. Creación de la estructura del sitio. Auditoría detallada del sitio. Corrección de errores técnicos en el sitio."
                                     style="transform: rotateY(-60deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-4 onactive"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/attractor.jpg" class="carousel-img" alt="sitios web attractor.es foto" title="Creación de sitios web de reformas"> </a>
+                                        <img src="img/attractor.jpg" loading="lazy" class="carousel-img" alt="sitios web attractor.es foto" title="Creación de sitios web de reformas"> </a>
                                 </li>
 
                                 <!--old items-->
@@ -347,34 +350,34 @@
                                     style="transform: rotateY(-30deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-5 onactive"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/smmjam.jpg" class="carousel-img" alt="sitios web smmjam.com foto" title="seo para agencia de mercadeo "> </a>
+                                        <img src="img/smmjam.jpg" loading="lazy" class="carousel-img" alt="sitios web smmjam.com foto" title="seo para agencia de mercadeo "> </a>
                                 </li>
 
                                 <li class="img-container img-container-6" data-case="jadejardi.com" data-sub-title-link="https://www.jadejardi.com/" data-sub-title="Paisajismo, piedra natural y madera" data-description="Moonsters Jump es un sitio para una sala de juegos para niños en Barcelona con atracciones en cada esquina. Creación de la estructura del sitio desde cero. Optimización de su sitio para motores de búsqueda e introducción de Google My Business."
                                     style="transform: rotateY(-30deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-6 onactive"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/jade.jpg" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
+                                        <img src="img/jade.jpg" loading="lazy" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
                                 </li>
 
                                 <li class="img-container img-container-7" data-case="bakerband.es" data-sub-title-link="https://www.bakerband.es/" data-sub-title="Pastelería online en barcelona" data-description="Promoción de sitios web SEO y lanzamiento de campaña publicitaria. Corrección de errores técnicos en el sitio."
                                     style="transform: rotateY(-120deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-7"><span>leer más</span></div> -->
                                     <a href="https://www.bakerband.es/" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/baker.jpg" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
+                                        <img src="img/baker.jpg" loading="lazy" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
                                 </li>
 
                                 <li class="img-container img-container-8" data-case="txt.me" data-sub-title-link="https://txt.me/" data-sub-title="Omnichannel Customer Support" data-description="Promoción del sitio web desde cero. Durante tres meses, el crecimiento de posiciones en Google para comentarios y solicitudes de información."
                                     style="transform: rotateY(0deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-8 onactive"><span>leer más</span></div> -->
                                     <a href="https://txt.me/" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/txt.png" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
+                                        <img src="img/txt.png" loading="lazy" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
                                 </li>
 
                                 <li class="img-container img-container-9" data-case="brspro.co.uk" data-sub-title-link="https://brspro.co.uk/" data-sub-title="BRSpro | Building renovation services" data-description="Diseño de sitios web utilizando animaciones complejas." style="transform: rotateY(-90deg) translateZ(-672px);">
                                     <!-- <div class="cta-btn cards-cta-btn cards-cta-btn-9"><span>leer más</span></div> -->
                                     <a href="" data-linkcomponentname="inline link" data-analytics-link-name="" data-analytics-content-type="cta" data-linktype="engagement">
-                                        <img src="img/brspro.jpg" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
+                                        <img src="img/brspro.jpg" loading="lazy" class="carousel-img" alt="sitios web foto" title="seo para sitios web"> </a>
                                 </li>
 
                             </ul>
@@ -501,7 +504,7 @@
                 <div class="articles__wrapper">
                     <div class="article__item article_label1">
                         <div class="article__item_top">
-                            <img src="img/article_img1.jpg" class="article_thumbnail" alt="">
+                            <img src="img/article_img1.jpg" loading="lazy" class="article_thumbnail" alt="">
                             <div class="article__share_icon"></div>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=seoplay.es" class="article__share_fb article_social closed"></a>
                             <a href="https://www.linkedin.com/shareArticle?mini=true&url=seoplay.es" class="article__share_linkedin article_social closed"></a>
@@ -527,7 +530,7 @@
                     </div>
                     <div class="article__item article_label2">
                         <div class="article__item_top">
-                            <img src="img/article_img2.jpg" class="article_thumbnail" alt="">
+                            <img src="img/article_img2.jpg" loading="lazy" class="article_thumbnail" alt="">
                             <div class="article__share_icon"></div>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=seoplay.es" class="article__share_fb article_social closed"></a>
                             <a href="https://www.linkedin.com/shareArticle?mini=true&url=seoplay.es" class="article__share_linkedin article_social closed"></a>
@@ -550,9 +553,9 @@
                     </div>
                 </div>
                 <div class="articles__bottom_link">
-                    <a href="/articles/" class="articles_title_link bubble__link">Más información sobre SEO<svg class="bubble_arrow">
-                        <path fill="##4A4A4A" d="M29.7204 7.07638C30.0456 6.75118 30.0456 6.22392 29.7204 5.89871L24.4208 0.599184C24.0956 0.273979 23.5684 0.273979 23.2432 0.599184C22.918 0.924389 22.918 1.45165 23.2432 1.77686L27.9539 6.48755L23.2432 11.1982C22.918 11.5234 22.918 12.0507 23.2432 12.3759C23.5684 12.7011 24.0956 12.7011 24.4208 12.3759L29.7204 7.07638ZM0.818359 7.32029L29.1315 7.32029L29.1315 5.65481L0.818359 5.65481L0.818359 7.32029Z"></path>
-                    </svg></a>
+                    <a href="/articles/" class="articles_title_link bubble__link">Más información sobre SEO
+                        <img src="img/img-arrow-right.svg" class="bubble_arrow" alt="arrow icon">
+                    </a>
                 </div>
             </div>
 

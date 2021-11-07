@@ -106,7 +106,7 @@
     }
 
     .wide_container {
-        padding: 0 12%;
+        max-width: 900px;
     }
     .title {
         margin: 0 0 80px 0;
@@ -115,6 +115,9 @@
         justify-content: flex-start;
         position: relative;
         
+    }
+    .faq__wrapper {
+        margin: 0 auto;
     }
     .faq__item_title {
         margin: 0 0 1em;
@@ -149,19 +152,30 @@ padding: .5em;
         background-color: transparent;
         backdrop-filter: none;
         padding-top: 0px;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
+        padding: 0;
     }
     .header__menu::after {
         content: "";
     }
     .header__list {
-        margin: 1px 0;
+        margin: 1px auto;
         display: flex;
         font-weight: 300;
-        justify-content: center;
+        justify-content: space-evenly;
+        max-width: 900px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 10;
+        transform: translateX(-50%);
 
+    }
+    .header__list li {
+        white-space: nowrap;
     }
     .header__list li::before {
         content: "[";
@@ -197,7 +211,7 @@ padding: .5em;
     }
 
     .top__request_link, .consult__request_link {
-        margin-left: calc(12% + 62px);
+        margin-left: calc(15% + 62px);
     }
 
     .top__title,
@@ -392,6 +406,11 @@ padding: .5em;
     .submid__wrapper {
         margin-bottom: 80px;
     }
+    .article__item {
+
+        max-width: 438px;
+    }
+
     .carousel {
         overflow: unset;
     }
@@ -555,11 +574,27 @@ padding: .5em;
     .under_c {
         font-size: 4rem;
     }
+    .footer__wrapper {
+        
+        justify-content: unset; 
+        padding: 80px 0;
+        
+    }
+    .footer__services, .footer__contacts {
+        margin-right: 10ch;
+    }
 }
 
 @media (min-width: 1150px) {
+    .header__menu {
+        font-size: 1.6rem;
+    }
+
+}
+@media (min-width: 1250px) {
     .lang__selector {
-        top: 30px;
+        top: 37px;
+        right: -27px;
     }
 
 }
@@ -571,15 +606,7 @@ padding: .5em;
         right: 0;
         transform: rotate(0deg);
     }
-    .footer__wrapper {
-        
-        justify-content: unset; 
-        padding: 80px 0;
-        
-    }
-    .footer__services, .footer__contacts {
-        margin-right: 10ch;
-    }
+
 }
 
 @media (min-width: 1440px) {
@@ -601,5 +628,15 @@ padding: .5em;
         right: 0;
         transform: rotate(0deg);
         
+    }
+}
+@media (min-width: 1500px) {
+    .wide_container {
+        padding: 0 15%;
+        max-width: unset;
+    }
+    .header__list {
+        width: 900px;
+        justify-content: space-around;
     }
 }
