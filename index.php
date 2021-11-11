@@ -80,6 +80,8 @@
                 </div>
             </div>
         </section>
+
+        
         <section class="services">
             <div class="services__wrapper">
                 <div class="container fix_container">
@@ -495,6 +497,52 @@
             </div>
 
         </section>
+
+        <section class="cite">
+            <div class="container wide_container">
+                <h2 class="cite__title title">Индекс цитирования</h2>
+                <div class="cite__wrapper fix_container">
+                    
+                    <!-- <h2 class="cite__description">Узнать индекс цитирования вашего сайта</h2> -->
+
+
+
+                                                        <!-- <div class="form__item">
+                                        <label for="email" class="form_label">Tu correo electrónico*</label>
+                                        <input id="email" type="email" name="email" required class="form_input _req">
+                                    </div> -->
+
+
+                    <form method="POST" id="cite_form">
+
+                        <div class="form__item">
+
+                        <label for="one" class="form_label">Узнайте количество ссылок на ваш сайт</label>
+
+                        <input type="text" name="one" id="one" required class="form_input" placeholder="example.com">
+
+                    </div>
+
+                    <div class="form__send_button">
+                        <div class="form_submit">
+                            Go
+                            <svg class="img-arrow-form">
+                            <path fill="##4A4A4A" d="M29.7204 7.07638C30.0456 6.75118 30.0456 6.22392 29.7204 5.89871L24.4208 0.599184C24.0956 0.273979 23.5684 0.273979 23.2432 0.599184C22.918 0.924389 22.918 1.45165 23.2432 1.77686L27.9539 6.48755L23.2432 11.1982C22.918 11.5234 22.918 12.0507 23.2432 12.3759C23.5684 12.7011 24.0956 12.7011 24.4208 12.3759L29.7204 7.07638ZM0.818359 7.32029L29.1315 7.32029L29.1315 5.65481L0.818359 5.65481L0.818359 7.32029Z"></path>
+                        </svg>
+                        </div>
+                        <input type="submit" name="send" value="send" id="send_button" class="submit_button">
+                    </div>
+
+
+
+                        <!-- <input type="submit" name="send" value="send" id="send_button"> -->
+                    </form>
+            
+                    <div class="list"></div>
+                </div>
+            </div>
+        </section>
+
 
         <section class="articles">
             <div class="container wide_container">

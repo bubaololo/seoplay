@@ -118,26 +118,26 @@ function TranslateSetCookie(code) {
 //     // })(document);
 // }
 
-(function(document) {
-    const animItems = [...document.querySelectorAll('.animation')];
+// (function(document) {
+//     const animItems = [...document.querySelectorAll('.animation')];
 
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach((entry) => {
-            if (entry.intersectionRatio > 0.5) {
-                entry.target.classList.add('go');
-                console.log(entry)
+//     const observer = new IntersectionObserver(entries => {
+//         entries.forEach((entry) => {
+//             if (entry.intersectionRatio > 0.5) {
+//                 entry.target.classList.add('go');
+//                 console.log(entry)
 
-            }
-        });
-    }, {
-        threshold: 1.0,
+//             }
+//         });
+//     }, {
+//         threshold: 1.0,
 
-    });
+//     });
 
-    animItems.forEach(item => {
-        observer.observe(item);
-    });
-})(document);
+//     animItems.forEach(item => {
+//         observer.observe(item);
+//     });
+// })(document);
 
 
 
@@ -467,19 +467,20 @@ ScrollTrigger.matchMedia({
         gsap.to("._1", {
             scrollTrigger: {
                 trigger: ".clip_path",
-                start: "top top", // when the top of the trigger hits the top of the viewport
+                start: "top+=10% top", // when the top of the trigger hits the top of the viewport
                 end: "+=50%",
                 markers: false,
                 scrub: 0.5
 
             },
             filter: "blur(0px)",
-            transform: "translateX(0%) translateY(0%)"
+            transform: "translateX(0%) translateY(0%)",
+            outline: "1px solid #4A4A4A"
         })
         gsap.to("._2", {
             scrollTrigger: {
                 trigger: ".clip_path",
-                start: "top top", // when the top of the trigger hits the top of the viewport
+                start: "top+=10% top", // when the top of the trigger hits the top of the viewport
                 end: "+=50%",
                 markers: false,
                 scrub: 0.5
@@ -491,7 +492,7 @@ ScrollTrigger.matchMedia({
         gsap.to("._3", {
             scrollTrigger: {
                 trigger: ".clip_path",
-                start: "top top", // when the top of the trigger hits the top of the viewport
+                start: "top+=10% top", // when the top of the trigger hits the top of the viewport
                 end: "+=50%",
                 markers: false,
                 scrub: 0.5
@@ -516,7 +517,8 @@ ScrollTrigger.matchMedia({
             },
             x: 0,
             filter: "blur(0px)",
-            opacity: "1"
+            opacity: "1",
+            
         })
         gsap.to("._5", {
             scrollTrigger: {
@@ -548,7 +550,7 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: ".services__items_wrapper-top",
                 start: "top top", // when the top of the trigger hits the top of the viewport
-                end: "+=70%",
+                end: "+=60%",
                 markers: false,
                 scrub: 0.5,
                 pin: true,
@@ -572,8 +574,8 @@ ScrollTrigger.matchMedia({
 
             },
             backgroundColor: "rgba(253, 0, 219, 0)",
-            scale: 7
-                // display: "none"
+            scale: 7,
+                display: "none"
         })
         gsap.to(".approach__wrapper", {
             scrollTrigger: {
@@ -645,14 +647,14 @@ const myModal = new HystModal({
 // PHP_MAILER______________________
 
 function send(event, php) {
-    console.log("Отправка запроса");
+    // console.log("Отправка запроса");
     event.preventDefault ? event.preventDefault() : event.returnValue = false;
     var req = new XMLHttpRequest();
     req.open('POST', php, true);
     req.onload = function() {
         if (req.status >= 200 && req.status < 400) {
             json = JSON.parse(this.response); // Ебанный internet explorer 11
-            console.log(json);
+            
 
             // ЗДЕСЬ УКАЗЫВАЕМ ДЕЙСТВИЯ В СЛУЧАЕ УСПЕХА ИЛИ НЕУДАЧИ
             if (json.result == "success") {
@@ -709,7 +711,7 @@ faqTitles.forEach(item => item.addEventListener('click', toggleAccordion));
 
 function toggleAccordion() {
     const faqText = this.querySelector('.faq__item_text');
-    console.log(faqText.classList)
+    
 
     faqText.classList.toggle('closed');
 
@@ -743,3 +745,77 @@ function toggleAccordion() {
 //         next: '.glider__bottom-next'
 //     }
 // });
+
+
+// _________CITATION_______________________________________
+
+const display = document.querySelector('.list')
+clearList();
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    const ajaxSend = async(formData) => {
+        clearList();
+        display.classList.add('_active');
+
+        const fetchResp = await fetch('app.php', {
+            method: 'POST',
+            body: formData
+        });
+        if (!fetchResp.ok) {
+            throw new Error(`Ошибка по адресу ${url}, статус ошибки ${fetchResp.status}`);
+        }
+        return await fetchResp.text();
+    };
+
+    const form = document.getElementById('cite_form');
+    
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(this);
+
+            ajaxSend(formData)
+                .then((response) => {
+
+                    form.reset(); // очищаем поля формы
+                    clearList();
+                    display.classList.remove('_active');
+                    printList();
+
+
+                })
+                .catch((err) => console.error(err))
+        });
+    });
+
+
+
+function clearList() {
+    display.textContent = '';
+
+}
+
+
+async function printList() {
+    let getData = await fetch('t.json')
+    let readyJson = await getData.json()
+
+    // let readyData = JSON.stringify(readyJson)
+    // document.querySelector('.list').textContent = readyJson;
+
+    var p = document.createElement("p");
+
+    if (readyJson === null) {
+        p.innerText = "no links";
+    } else {
+        
+            p.innerText = `Ссылок на сайт: ${readyJson}`;
+            // target = list.lastChild;
+            
+
+        }
+        display.appendChild(p);
+    }
