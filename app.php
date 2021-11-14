@@ -36,7 +36,7 @@ file_put_contents('t.json',$jsonData);
 if (trim($_POST['one']) !='') {
     global $data;
     $formdata = preg_replace('/\s/', '%20', (trim($_POST['one'])));
-    $searchURL = 'https://www.googleapis.com/customsearch/v1?key={}&cx=acfd41e8274e5b238&q=site:'.$formdata;
+    $searchURL = 'https://www.googleapis.com/customsearch/v1?key=AIzaSyARRcNevgwiQcB0cFEAdrIzcyQF2Y2mkIA&cx=acfd41e8274e5b238&q=site:'.$formdata;
  
     $urlcontent = file_get_contents($searchURL);
     echo "<pre>";

@@ -553,6 +553,7 @@
                     <div class="article__item article_label1">
                         <div class="article__item_top">
                             <img src="img/article_img1.jpg" loading="lazy" class="article_thumbnail" alt="">
+                            <div class="article__thumbnail-gradient"></div>
                             <div class="article__share_icon"></div>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=seoplay.es" class="article__share_fb article_social closed"></a>
                             <a href="https://www.linkedin.com/shareArticle?mini=true&url=seoplay.es" class="article__share_linkedin article_social closed"></a>
@@ -579,6 +580,7 @@
                     <div class="article__item article_label2">
                         <div class="article__item_top">
                             <img src="img/article_img2.jpg" loading="lazy" class="article_thumbnail" alt="">
+                            <div class="article__thumbnail-gradient"></div>
                             <div class="article__share_icon"></div>
                             <a href="https://www.facebook.com/sharer/sharer.php?u=seoplay.es" class="article__share_fb article_social closed"></a>
                             <a href="https://www.linkedin.com/shareArticle?mini=true&url=seoplay.es" class="article__share_linkedin article_social closed"></a>

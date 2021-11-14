@@ -7,10 +7,10 @@ viewBox="0 0 900 900"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <g id="Слой_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <circle fill="none" stroke="white" stroke-width="90" stroke-miterlimit="22.9256" cx="710" cy="190" r="140"/>
-  <circle fill="none" stroke="white" stroke-width="90" stroke-miterlimit="22.9256" cx="190" cy="430" r="140"/>
-  <circle fill="none" stroke="white" stroke-width="90" stroke-miterlimit="22.9256" cx="710" cy="720" r="140"/>
-  <line fill="none" stroke="white" stroke-width="90" stroke-miterlimit="22.9256" x1="310" y1="380" x2="590" y2= "220" />
-  <line fill="none" stroke="white" stroke-width="90" stroke-miterlimit="22.9256" x1="330" y1="470" x2="620" y2= "630" />
+  <circle fill="none" stroke="#242C42" stroke-width="90" stroke-miterlimit="22.9256" cx="710" cy="190" r="140"/>
+  <circle fill="none" stroke="#242C42" stroke-width="90" stroke-miterlimit="22.9256" cx="190" cy="430" r="140"/>
+  <circle fill="none" stroke="#242C42" stroke-width="90" stroke-miterlimit="22.9256" cx="710" cy="720" r="140"/>
+  <line fill="none" stroke="#242C42" stroke-width="90" stroke-miterlimit="22.9256" x1="310" y1="380" x2="590" y2= "220" />
+  <line fill="none" stroke="#242C42" stroke-width="90" stroke-miterlimit="22.9256" x1="330" y1="470" x2="620" y2= "630" />
  </g>
 </svg>

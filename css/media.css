@@ -565,6 +565,21 @@ padding: 0;
     .articles_wrapper {
         margin: 0 auto;
     }
+    /* .article__item_top {
+        background-image: linear-gradient(to top, black, transparent 70%);
+    } */
+
+
+
+
+/* .article__thumbnail-gradient:hover {
+
+    background-image: linear-gradient(to bottom right, #9f049f, transparent 80%);
+    transition: all .3s;
+} */
+
+
+
     .article__item+.article__item {
         margin-left: 24px;
     }
@@ -585,7 +600,7 @@ padding: 0;
     .article__share_fb {
         top: 88px;
         left: 36px;
-        background-color: rgba(0, 0, 0, 0.3);
+        
     }
     .article__share_fb.closed {
         top: 36px;
@@ -594,7 +609,7 @@ padding: 0;
     .article__share_linkedin {
         top: 36px;
         left: 88px;
-        background-color: rgba(0, 0, 0, 0.3);
+        
     }
     .article__share_linkedin.closed {
         top: 36px;
@@ -622,17 +637,19 @@ padding: 0;
     .article_item_author {
         display: block;
         position: absolute;
-        right: 24px;
-        bottom: 24px;
+        /* right: 24px; */
+        bottom: 0;
         color: #000;
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.6rem;
         font-weight: 400;
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 0.5em 1em 0.5em 1.5em;
+        background-color: rgba(255, 255, 255, 0.75);
+        padding: 24px;
         line-height: 2rem;
-        text-align: right;
+        /* text-align: right; */
         backdrop-filter: blur(10px);
+        width: 100%;
+        /* border-radius: 0 30px 30px 0; */
     }
     .article_item_author::before {
         content: "";
@@ -641,20 +658,19 @@ padding: 0;
         background-position: center center;
         background-size: cover;
         position: absolute;
-        width: 57px;
-        height: 57px;
-        border-radius: 30px;
-        top: -1px;
-        left: -35px;
+        width: 100px;
+        height: 100px;
+        border-radius: 53px;
+        top: -50px;
+        left: 309px;
+        filter: drop-shadow(0px -15px 34px #fff);
     }
     .article__tag_link, .article_item_author {
         font-family: unset;
 
     }
 
-    .article_item_author {
-        padding: 0.5em 1em 0.5em 2em;
-    }
+
 
 
     
