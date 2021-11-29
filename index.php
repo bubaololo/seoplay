@@ -44,6 +44,11 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <div class="stains_container">
+        <img src="img/header_triangle1.svg" class="header__triangle_1 background_triangle" alt="seo">
+        <img src="img/header_triangle2.svg" class="header__triangle_2 background_triangle" alt="seo">
+    </div>
+
     <?php
     include_once($_SERVER['DOCUMENT_ROOT'].'/header.php');
     ?>
@@ -111,7 +116,8 @@
                 <div class="services__items_wrapper">
                     <div class="services__items_wrapper-top">
                         <div class="services__item_wrapper-1">
-                            <img src="img/_1.svg" alt="" class="services_bgnd bgnd1">
+                        <div class="services__line line-left"></div>
+                            <!-- <img src="img/_1.svg" alt="" class="services_bgnd bgnd1"> -->
                             <div class="services__item mobile_animation _1">
                                 <div class="services__item_top">
                                     <div class="services__item_top-title">
@@ -128,6 +134,7 @@
                                     </div>
                                 </div>
                                 <div class="services__item_text_wrapper">
+                                
                                     <div class="container">
                                         <div class="services__item_text">
                                             Más clientes nuevos con un diseño centrado en sus usuarios.
@@ -137,8 +144,10 @@
                             </div>
                         </div>
                         <div class="services__item_wrapper-2">
-                            <img src="img/_2.svg" alt="" class="services_bgnd bgnd2">
+                        <div class="services__line line-right"></div>
+                            <!-- <img src="img/_2.svg" alt="" class="services_bgnd bgnd2"> -->
                             <div class="services__item mobile_animation _2">
+                            
                                 <div class="services__item_top">
                                     <div class="services__item_top-title">
                                         <div class="container">
@@ -162,7 +171,8 @@
 
 
                         <div class="services__item_wrapper-3">
-                            <img src="img/_3.svg" alt="" class="services_bgnd bgnd3">
+                        <div class="services__line line-left"></div>
+                            <!-- <img src="img/_3.svg" alt="" class="services_bgnd bgnd3"> -->
                             <div class="services__item mobile_animation _3">
                                 <div class="services__item_top">
                                     <div class="services__item_top-title">
@@ -192,7 +202,8 @@
                     <div class="services__items_wrapper-bottom">
 
                         <div class="services__item_wrapper-4">
-                            <img src="img/_4.svg" alt="" class="services_bgnd bgnd4">
+                        <div class="services__line line-right"></div>
+                            <!-- <img src="img/_4.svg" alt="" class="services_bgnd bgnd4"> -->
 
                             <div class="services__item mobile_animation _4">
                                 <div class="services__item_top">
@@ -217,8 +228,8 @@
                         </div>
 
                         <div class="services__item_wrapper-5">
-                            <img src="img/_5.svg" alt="" class="services_bgnd bgnd5">
-
+                            <!-- <img src="img/_5.svg" alt="" class="services_bgnd bgnd5"> -->
+                            <div class="services__line line-left"></div>
                             <div class="services__item mobile_animation _5">
                                 <div class="services__item_top">
                                     <div class="services__item_top-title">
@@ -245,7 +256,7 @@
 
 
                         <div class="services__item_wrapper-6">
-                            <img src="img/_6.svg" alt="" class="services_bgnd bgnd6">
+                            <!-- <img src="img/_6.svg" alt="" class="services_bgnd bgnd6"> -->
                             <div class="services__item mobile_animation _6">
                                 <div class="services__item_top">
                                     <div class="services__item_top-title">
@@ -283,7 +294,7 @@
             </a>
         </section>
         <section class="submid">
-            <div class="container">
+            
                 <div class="submid__wrapper fix_container">
                     <div class="approach__wrapper mobile_animation go">
                         <div class="approach__title title">
@@ -302,7 +313,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </section>
         <div class="main__slider">
             <div class="container">

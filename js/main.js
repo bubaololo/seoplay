@@ -145,7 +145,7 @@ function TranslateSetCookie(code) {
 // Services_animations
 
 ScrollTrigger.matchMedia({
-    "(min-width: 320px) and (max-width: 413px)": function() {
+    "(min-width: 320px) and (max-width: 414px)": function() {
         // gsap.to(".services__title::after", {
         //     scrollTrigger: {
         //         trigger: "top__title",
@@ -157,172 +157,370 @@ ScrollTrigger.matchMedia({
         //     },
         //     clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
         // })
-        gsap.to("._1", {
+        gsap.to("._1 .services__item_top-title", {
             scrollTrigger: {
                 trigger: "._1",
+                start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+                end: "+=10%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "circle(130% at 40px 0)",
+            
+        })
+
+        gsap.to("._1 .services__item_top-subtitle", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top+=20% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            // filter: "blur(0px)",
+            // opacity: "1"
+        })
+        gsap.to("._1 .services__item_text", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            // transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            // opacity: "1"
+        })
+
+
+
+
+        gsap.to(".services__item_wrapper-1 .services__line", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+        })
+
+        // gsap.to(".bgnd1", {
+        //     scrollTrigger: {
+        //         trigger: "._1",
+        //         start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+        //         end: "+=20%",
+        //         markers: false,
+        //         scrub: 0.5
+
+        //     },
+
+        //     filter: "blur(60px)",
+
+        // })
+
+// _____________2___________________________
+
+        gsap.to("._2 .services__item_top-title", {
+            scrollTrigger: {
+                trigger: "._2",
                 start: "top-=20% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-            transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            clipPath: "circle(130% at 40px 0)"
         })
-        gsap.to(".bgnd1", {
+
+        gsap.to("._2 .services__item_top-subtitle", {
             scrollTrigger: {
-                trigger: "._1",
+                trigger: "._2",
+                start: "top+=20% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            transform: "perspective(600px) rotateX(0deg)",
+            // filter: "blur(0px)",
+            // opacity: "1"
+        })
+        gsap.to("._2 .services__item_text", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            // transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            // opacity: "1"
+        })
+
+
+
+
+        gsap.to(".services__item_wrapper-2 .services__line", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+        })
+
+
+// _____________3___________________________
+
+
+        gsap.to("._3 .services__item_top-title", {
+            scrollTrigger: {
+                trigger: "._3",
                 start: "top-=20% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-
-            filter: "blur(60px)",
-
-        })
-        gsap.to("._2", {
-            scrollTrigger: {
-                trigger: "._2",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
-
-            },
-            transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            clipPath: "circle(115% at 240px 0)"
         })
 
 
-        gsap.to(".bgnd2", {
-            scrollTrigger: {
-                trigger: "._2",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
-
-            },
-
-            filter: "blur(60px)",
-
-        })
-        gsap.to("._3", {
+        gsap.to("._3 .services__item_top-subtitle", {
             scrollTrigger: {
                 trigger: "._3",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                start: "top+=20% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
             transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            // filter: "blur(0px)",
+            // opacity: "1"
         })
-
-        gsap.to(".bgnd3", {
+        gsap.to("._3 .services__item_text", {
             scrollTrigger: {
                 trigger: "._3",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                start: "top+=35% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-
-            filter: "blur(60px)",
-
-        })
-
-        gsap.to("._4", {
-            scrollTrigger: {
-                trigger: "._4",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
-
-            },
-            transform: "perspective(600px) rotateX(0deg)",
+            // transform: "perspective(600px) rotateX(0deg)",
             filter: "blur(0px)",
-            opacity: "1"
+            // opacity: "1"
         })
 
-        gsap.to(".bgnd4", {
+
+
+        gsap.to(".services__item_wrapper-3 .services__line", {
             scrollTrigger: {
-                trigger: "._4",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
+                trigger: "._3",
+                start: "top+=35% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-
-            filter: "blur(60px)",
-
-        })
-
-        gsap.to("._5", {
-            scrollTrigger: {
-                trigger: "._5",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
-
-            },
-            transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
-        })
-
-        gsap.to(".bgnd5", {
-            scrollTrigger: {
-                trigger: "._5",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
-
-            },
-
-            filter: "blur(60px)",
-
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
         })
 
 
-        gsap.to("._6", {
-            scrollTrigger: {
-                trigger: "._6",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
 
-            },
-            transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
-        })
 
-        gsap.to(".bgnd6", {
-            scrollTrigger: {
-                trigger: "._6",
-                start: "top-=50% center", // when the top of the trigger hits the top of the viewport
-                end: "+=20%",
-                markers: false,
-                scrub: 0.5
 
-            },
+// _____________4___________________________
 
-            filter: "blur(60px)",
 
-        })
+
+
+gsap.to("._4 .services__item_top-title", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "circle(115% at 240px 0)"
+})
+
+
+gsap.to("._4 .services__item_top-subtitle", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top+=20% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    transform: "perspective(600px) rotateX(0deg)",
+    // filter: "blur(0px)",
+    // opacity: "1"
+})
+gsap.to("._4 .services__item_text", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    // transform: "perspective(600px) rotateX(0deg)",
+    filter: "blur(0px)",
+    // opacity: "1"
+})
+
+
+
+gsap.to(".services__item_wrapper-4 .services__line", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+})
+
+
+// ____________________5___________________________
+
+
+gsap.to("._5 .services__item_top-title", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "circle(115% at 240px 0)"
+})
+
+
+gsap.to("._5 .services__item_top-subtitle", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top+=20% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    transform: "perspective(600px) rotateX(0deg)",
+    // filter: "blur(0px)",
+    // opacity: "1"
+})
+gsap.to("._5 .services__item_text", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    // transform: "perspective(600px) rotateX(0deg)",
+    filter: "blur(0px)",
+    // opacity: "1"
+})
+
+
+
+gsap.to(".services__item_wrapper-5 .services__line", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+})
+
+
+// ________________________6________________________
+
+
+gsap.to("._6 .services__item_top-title", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "circle(115% at 240px 0)"
+})
+
+
+gsap.to("._6 .services__item_top-subtitle", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top+=20% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    transform: "perspective(600px) rotateX(0deg)",
+    // filter: "blur(0px)",
+    // opacity: "1"
+})
+gsap.to("._6 .services__item_text", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    // transform: "perspective(600px) rotateX(0deg)",
+    filter: "blur(0px)",
+    // opacity: "1"
+})
+
+
+
+gsap.to(".services__item_wrapper-6 .services__line", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top+=35% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+})
+
+
+//   ________________APPROACH____________________________________
 
         gsap.to(".approach__wrapper", {
             scrollTrigger: {
@@ -352,85 +550,368 @@ ScrollTrigger.matchMedia({
         })
 
     },
-    "(min-width: 414px) and (max-width: 1024px)": function() {
-        gsap.to("._1", {
+    "(min-width: 415px) and (max-width: 1024px)": function() {
+        gsap.to("._1 .services__item_top-title", {
             scrollTrigger: {
                 trigger: "._1",
-                start: "top-=450% center", // when the top of the trigger hits the top of the viewport
+                start: "top-=120% center", // when the top of the trigger hits the top of the viewport
+                end: "+=10%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "circle(130% at 40px 0)",
+            
+        })
+
+        gsap.to("._1 .services__item_top-subtitle", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top-=80% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
             transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            // filter: "blur(0px)",
+            // opacity: "1"
         })
-        gsap.to("._2", {
+        gsap.to("._1 .services__item_text", {
             scrollTrigger: {
                 trigger: "._1",
-                start: "top-=550% center", // when the top of the trigger hits the top of the viewport
+                start: "top-=75% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-            transform: "perspective(600px) rotateX(0deg)",
+            // transform: "perspective(600px) rotateX(0deg)",
             filter: "blur(0px)",
-            opacity: "1"
+            // opacity: "1"
         })
-        gsap.to("._3", {
+
+
+
+
+        gsap.to(".services__item_wrapper-1 .services__line", {
+            scrollTrigger: {
+                trigger: "._1",
+                start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+        })
+
+        // gsap.to(".bgnd1", {
+        //     scrollTrigger: {
+        //         trigger: "._1",
+        //         start: "top-=20% center", // when the top of the trigger hits the top of the viewport
+        //         end: "+=20%",
+        //         markers: false,
+        //         scrub: 0.5
+
+        //     },
+
+        //     filter: "blur(60px)",
+
+        // })
+
+// _____________2___________________________
+
+        gsap.to("._2 .services__item_top-title", {
             scrollTrigger: {
                 trigger: "._2",
-                start: "top-=650% center", // when the top of the trigger hits the top of the viewport
+                start: "top-=120% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "circle(130% at 40px 0)"
+        })
+
+        gsap.to("._2 .services__item_top-subtitle", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top-=80% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
             transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            // filter: "blur(0px)",
+            // opacity: "1"
         })
-        gsap.to("._4", {
+        gsap.to("._2 .services__item_text", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            // transform: "perspective(600px) rotateX(0deg)",
+            filter: "blur(0px)",
+            // opacity: "1"
+        })
+
+
+
+
+        gsap.to(".services__item_wrapper-2 .services__line", {
+            scrollTrigger: {
+                trigger: "._2",
+                start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+        })
+
+
+// _____________3___________________________
+
+
+        gsap.to("._3 .services__item_top-title", {
             scrollTrigger: {
                 trigger: "._3",
-                start: "top-=750% center", // when the top of the trigger hits the top of the viewport
+                start: "top-=120% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-            transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            clipPath: "circle(115% at 240px 0)"
         })
-        gsap.to("._5", {
+
+
+        gsap.to("._3 .services__item_top-subtitle", {
             scrollTrigger: {
-                trigger: "._4",
-                start: "top-=850% center", // when the top of the trigger hits the top of the viewport
+                trigger: "._3",
+                start: "top-=80% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
             transform: "perspective(600px) rotateX(0deg)",
-            filter: "blur(0px)",
-            opacity: "1"
+            // filter: "blur(0px)",
+            // opacity: "1"
         })
-        gsap.to("._6", {
+        gsap.to("._3 .services__item_text", {
             scrollTrigger: {
-                trigger: "._5",
-                start: "top-=950% center", // when the top of the trigger hits the top of the viewport
+                trigger: "._3",
+                start: "top-=75% center", // when the top of the trigger hits the top of the viewport
                 end: "+=20%",
                 markers: false,
                 scrub: 0.5
 
             },
-            transform: "perspective(600px) rotateX(0deg)",
+            // transform: "perspective(600px) rotateX(0deg)",
             filter: "blur(0px)",
-            opacity: "1"
+            // opacity: "1"
         })
+
+
+
+        gsap.to(".services__item_wrapper-3 .services__line", {
+            scrollTrigger: {
+                trigger: "._3",
+                start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+                end: "+=20%",
+                markers: false,
+                scrub: 0.5
+
+            },
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+        })
+
+
+
+
+
+// _____________4___________________________
+
+
+
+
+gsap.to("._4 .services__item_top-title", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top-=120% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "circle(115% at 240px 0)"
+})
+
+
+gsap.to("._4 .services__item_top-subtitle", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top-=80% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    transform: "perspective(600px) rotateX(0deg)",
+    // filter: "blur(0px)",
+    // opacity: "1"
+})
+gsap.to("._4 .services__item_text", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    // transform: "perspective(600px) rotateX(0deg)",
+    filter: "blur(0px)",
+    // opacity: "1"
+})
+
+
+
+gsap.to(".services__item_wrapper-4 .services__line", {
+    scrollTrigger: {
+        trigger: "._4",
+        start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+})
+
+
+// ____________________5___________________________
+
+
+gsap.to("._5 .services__item_top-title", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top-=120% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "circle(115% at 240px 0)"
+})
+
+
+gsap.to("._5 .services__item_top-subtitle", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top-=80% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    transform: "perspective(600px) rotateX(0deg)",
+    // filter: "blur(0px)",
+    // opacity: "1"
+})
+gsap.to("._5 .services__item_text", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    // transform: "perspective(600px) rotateX(0deg)",
+    filter: "blur(0px)",
+    // opacity: "1"
+})
+
+
+
+gsap.to(".services__item_wrapper-5 .services__line", {
+    scrollTrigger: {
+        trigger: "._5",
+        start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+})
+
+
+// ________________________6________________________
+
+
+gsap.to("._6 .services__item_top-title", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top-=120% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "circle(115% at 240px 0)"
+})
+
+
+gsap.to("._6 .services__item_top-subtitle", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top-=80% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    transform: "perspective(600px) rotateX(0deg)",
+    // filter: "blur(0px)",
+    // opacity: "1"
+})
+gsap.to("._6 .services__item_text", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    // transform: "perspective(600px) rotateX(0deg)",
+    filter: "blur(0px)",
+    // opacity: "1"
+})
+
+
+
+gsap.to(".services__item_wrapper-6 .services__line", {
+    scrollTrigger: {
+        trigger: "._6",
+        start: "top-=75% center", // when the top of the trigger hits the top of the viewport
+        end: "+=20%",
+        markers: false,
+        scrub: 0.5
+
+    },
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
+})
 
         gsap.to(".approach__wrapper", {
             scrollTrigger: {

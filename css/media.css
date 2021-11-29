@@ -7,13 +7,17 @@
     }
 }
 
-@media (min-width: 414px) {
+@media (min-width: 415px) {
     .lang__selector {
         top: 90px;
     }
     .bubble__link {
         margin-left: 12vw;
     }
+    .header__triangle_1 {
+        top: -29%;}
+        .header__triangle_2 {
+            right: -40%;}
     .top__bottom_links {
         display: flex;
         justify-content: center;
@@ -51,8 +55,11 @@
     }
 }
 
-@media (min-width: 414px) and (max-width:1024px) {
+@media (min-width: 415px) and (max-width:1024px) {
     .container {
+        padding: 0 10vw;
+    }
+    .submid__wrapper {
         padding: 0 10vw;
     }
     .services__item_text {
@@ -101,6 +108,9 @@
     .container {
         padding: 0;
     }
+    .submid__wrapper {
+        padding: 0;
+    }
     .fix_container {
         max-width: 900px;
     }
@@ -121,11 +131,7 @@
 border: 1px solid #242C42;
     }
 
-    .approach__title, .experience__title {
 
-        color: #fff;
-
-    }
 
 
 
@@ -134,43 +140,26 @@ border: 1px solid #242C42;
         position: relative;
         
     }
-    .cite {
-        display: block;
-    }
-    .cite .form_input {
-        border-radius: 30px;
-        border: 1px solid #cac0c0;
-        background:none;
-        height: 48px;
-        margin-top: 80px;
-    }
-    .cite .form__send_button {
-        margin-top: 119px;
-        margin-left: 75px;
-    }
-    .faq__wrapper {
-        margin: 0 auto;
-    }
-
-    .faq__item_wrapper {
-                /* box-shadow: unset; */
-        border: 1px solid #cac0c0;
-        border-radius: 30px;
-        margin: 0 0 .5em 0;
-        padding: .5em 1.5em;
-    }
 
 
-    .faq__item_title {
-        
-        padding: 0;
-        margin: 0;
-        
-        box-shadow: unset;
-        font-weight: 300;
+    .background_triangle {
+
+        filter: blur(200px);
     }
-
-
+    .header__triangle_1 {
+        top: -25%;
+        right: 0;
+        left: auto;
+        width: 38%;
+        transform: rotate(
+    350deg
+    );
+    }
+    .header__triangle_2 {
+        top: -23%;
+        right: -14%;
+        width: 30%;
+    }
 
 
     .header {
@@ -269,13 +258,41 @@ border: 1px solid #242C42;
     }
     .services__item_top-title {
         background-color: unset;
+        background: unset;
         box-shadow: unset;
         min-height: unset;
         padding: 0;
+        color: inherit;
+        -webkit-clip-path: unset;
+        clip-path: unset;
+        line-height: inherit;
     }
+
+    ._3 .services__item_top-title {
+        background: unset;
+        -webkit-clip-path: unset;
+        clip-path: unset;
+    }
+    ._5 .services__item_top-title {
+        background: unset;
+        -webkit-clip-path: unset;
+        clip-path: unset;
+    }
+
+
     .services__title {
         font-size: 1rem;
         margin: 0 0 0 20vw;
+    }
+    .services__line {
+        display: none;
+    }
+    .services__item_text {
+        filter: unset;
+        margin: 0;
+    
+        -webkit-backdrop-filter: unset;
+        
     }
     .services__title::after {
         height: 50vh;
@@ -305,7 +322,7 @@ border: 1px solid #242C42;
         /* max-width: 1132px; */
     }
     .services__item_top-subtitle {
-
+        transform:unset;
         font-size: 16px;
     }
     .services__items_wrapper-bottom {
@@ -415,9 +432,52 @@ border: 1px solid #242C42;
     .services__item_top {
         margin-bottom: 36px;
     }
+
+    .approach__title, .experience__title {
+
+        color: #fff;
+
+    }
+
     .services__item_text,
     .submid__wrapper {
         font-family: 'Roboto', sans-serif;
+    }
+
+    .cite {
+        display: block;
+    }
+    .cite .form_input {
+        border-radius: 30px;
+        border: 1px solid #cac0c0;
+        background:none;
+        height: 48px;
+        margin-top: 80px;
+    }
+    .cite .form__send_button {
+        margin-top: 119px;
+        margin-left: 75px;
+    }
+    .faq__wrapper {
+        margin: 0 auto;
+    }
+
+    .faq__item_wrapper {
+                /* box-shadow: unset; */
+        border: 1px solid #cac0c0;
+        border-radius: 30px;
+        margin: 0 0 .5em 0;
+        padding: .5em 1.5em;
+    }
+
+
+    .faq__item_title {
+        
+        padding: 0;
+        margin: 0;
+        
+        box-shadow: unset;
+        font-weight: 300;
     }
     .faq,
     .submid__wrapper {
