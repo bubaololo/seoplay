@@ -142,9 +142,17 @@ border: 1px solid #242C42;
     }
 
 
-    .background_triangle {
+    /* .background_triangle {
 
         filter: blur(200px);
+    } */
+    @keyframes top_triangle {
+        from {transform: rotate(273deg) translateX(20%) translateY(0%); filter: blur(200px);}
+        to {transform: rotate(341deg) translateX(-5%) translateY(3%); filter: blur(150px);}
+    }
+    @keyframes bot_triangle {
+        from {transform: rotate(240deg) translateX(-64%) translateY(17%); filter: blur(150px);}
+        to {transform: rotate(245deg) translateX(-13%) translateY(8%); filter: blur(200px);}
     }
     .header__triangle_1 {
         top: -25%;
@@ -344,6 +352,7 @@ border: 1px solid #242C42;
         width: 100%;
         height: 35%;
         background-color: rgba(253, 0, 219, 1);
+        background-color: rgba(242, 1, 148, 1);;
     }
     .clip_path {
         display: unset;
@@ -366,6 +375,7 @@ border: 1px solid #242C42;
         justify-content: start;
         margin: 0;
         background-color: #fff;
+        border-radius: 100px;
     }
     .services__item_top-subtitle {
 

@@ -110,16 +110,27 @@ header {
     top: -23%;
     width: 100%;
     right: -25%;
-    transform: rotate( 349deg);
+    /* transform: rotate( 349deg); */
+    animation: 5s infinite alternate top_triangle;
 }
-
+@keyframes top_triangle {
+    from {    transform: rotate(272deg) translateX(-13%) translateY(10%);
+        filter: blur(75px);}
+    to {transform: rotate(360deg) translateX(-5%) translateY(3%); filter: blur(55px);}
+}
 .header__triangle_2 {
     right: -33%;
     width: 49%;
     top: -1%;
     transform: rotate(246deg);
+    animation: 4s infinite alternate bot_triangle;
 }
-
+@keyframes bot_triangle {
+    from {    transform: rotate(1deg) translateX(-28%) translateY(-7%);
+         filter: blur(55px);}
+    to {transform: rotate(26deg) translateX(0%) translateY(-53%);
+        filter: blur(75px);}
+}
 
 
 .menu__icon {
@@ -338,7 +349,7 @@ header {
 }
 
 .services__item_top {
-    font-family: 'Montserrat', sans-serif;
+
     margin-bottom: 64px;
 
 
@@ -357,6 +368,7 @@ header {
     -webkit-clip-path: circle(0% at 40px 0);
     clip-path: circle(0% at 40px 0);
     line-height: 2.5ch;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -384,7 +396,7 @@ header {
         overflow-y: hidden;
     /* height: 0; */
     transform-origin: top;
-    
+    line-height: 2.6;
     transform: perspective(600px) rotateX(-90deg);
     /* opacity: .5; */
     /* filter: blur(15px); */
@@ -720,7 +732,9 @@ footer .title {
     padding: 5vh 0;
     position: relative;
 }
-
+.footer__social, .footer__contacts {
+    margin-top: 24px;
+}
 .social__text {
     display: flex;
     justify-content: flex-start;
@@ -1539,6 +1553,13 @@ svg.intro.go .text-stroke:nth-child(6) {
 } */
 .cite {
     display: none;
+}
+.cite .bubble_arrow {
+    left: -9px;
+    top: 7px;
+}
+.cite .form__send_button {
+    font-family: inherit;
 }
 .box {
     display: flex;

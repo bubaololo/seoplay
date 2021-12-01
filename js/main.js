@@ -956,7 +956,8 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             },
             filter: "blur(0px)",
             transform: "translateX(0%) translateY(0%)",
-            outline: "1px solid #4A4A4A"
+            // outline: "1px solid #4A4A4A",
+            borderRadius: "0px"
         })
         gsap.to("._2", {
             scrollTrigger: {
@@ -968,7 +969,8 @@ gsap.to(".services__item_wrapper-6 .services__line", {
 
             },
             filter: "blur(0px)",
-            transform: "translateX(0%) translateY(0%)"
+            transform: "translateX(0%) translateY(0%)",
+            borderRadius: "0px"
         })
         gsap.to("._3", {
             scrollTrigger: {
@@ -980,7 +982,8 @@ gsap.to(".services__item_wrapper-6 .services__line", {
 
             },
             filter: "blur(0px)",
-            transform: "translateX(0%) translateY(0%)"
+            transform: "translateX(0%) translateY(0%)",
+            borderRadius: "0px"
         })
 
 
@@ -999,6 +1002,7 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             x: 0,
             filter: "blur(0px)",
             opacity: "1",
+            borderRadius: "0px"
             
         })
         gsap.to("._5", {
@@ -1012,7 +1016,8 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             },
             x: 0,
             filter: "blur(0px)",
-            opacity: "1"
+            opacity: "1",
+            borderRadius: "0px"
         })
         gsap.to("._6", {
             scrollTrigger: {
@@ -1025,7 +1030,8 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             },
             x: 0,
             filter: "blur(0px)",
-            opacity: "1"
+            opacity: "1",
+            borderRadius: "0px"
         })
         gsap.to(".clip_path", {
             scrollTrigger: {
@@ -1053,8 +1059,8 @@ gsap.to(".services__item_wrapper-6 .services__line", {
                 toggleClass: { targets: ".services__color_lens", className: "active" }
                 // ease: slow
 
-            },
-            backgroundColor: "rgba(253, 0, 219, 0)",
+            }, 
+            backgroundColor: "rgba(242, 1, 148, 0)",
             scale: 7,
                 display: "none"
         })
