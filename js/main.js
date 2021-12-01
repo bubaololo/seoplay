@@ -1090,6 +1090,16 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             filter: "blur(0px)",
             opacity: "1"
         })
+        gsap.to(".handwritten_stroke", {
+            scrollTrigger: {
+                trigger: ".footer",
+                start: "bottom-=5% bottom",
+                end: "bottom bottom",
+                markers: false,
+            },
+            // animation: "5s forwards dash"
+            display: "inline-block"
+        })
 
     }
 });

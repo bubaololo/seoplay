@@ -91,12 +91,16 @@
         margin-bottom: 0;
         min-height: unset;
     }
+
 }
 
 @media (min-width: 640px) {
     .header {
         padding-top: 8vh;
         margin-bottom: 12vh;
+    }
+    .footer__contacts {
+        margin-top: unset;
     }
 }
 
@@ -618,6 +622,9 @@ padding: 0;
         top: auto;
         bottom: 9vh;
         right: 0vw;
+    }
+    .footer__social {
+        margin-top: unset;
     }
     .ticker-wrap {
         display: none;
