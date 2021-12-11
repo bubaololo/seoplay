@@ -1,3 +1,9 @@
+// REVEAL HIDDEN TYPED STRINGS AS ALL IS LOADED________________________________
+window.onload = function() {
+    let typedStrings = document.querySelector('.type-wrap');
+    typedStrings.classList.add('visible');
+}
+
 // BURGER________________________________
 
 document.querySelector('.menu__icon').addEventListener('click', event => {
@@ -992,45 +998,51 @@ gsap.to(".services__item_wrapper-6 .services__line", {
 
         gsap.to("._4", {
             scrollTrigger: {
-                trigger: "._5",
-                start: "top bottom", // when the top of the trigger hits the top of the viewport
+                trigger: "._4",
+                start: "bottom bottom", // when the top of the trigger hits the top of the viewport
                 end: "+=50%",
                 markers: false,
                 scrub: 0.5
 
             },
             x: 0,
+            y: 0,
+            scale: 1,
             filter: "blur(0px)",
-            opacity: "1",
+            
             borderRadius: "0px"
             
         })
         gsap.to("._5", {
             scrollTrigger: {
-                trigger: "._6",
-                start: "top bottom", // when the top of the trigger hits the top of the viewport
+                trigger: "._5",
+                start: "bottom bottom", // when the top of the trigger hits the top of the viewport
                 end: "+=50%",
                 markers: false,
                 scrub: 0.5
 
             },
             x: 0,
+            y: 0,
+            scale: 1,
             filter: "blur(0px)",
-            opacity: "1",
+            
             borderRadius: "0px"
         })
         gsap.to("._6", {
             scrollTrigger: {
                 trigger: ".services__items_wrapper-bottom",
-                start: "bottom bottom", // when the top of the trigger hits the top of the viewport
-                end: "+=300",
+                start: "bottom+=15% bottom", // when the top of the trigger hits the top of the viewport
+                end: "+=30%",
                 markers: false,
                 scrub: 0.5
 
             },
             x: 0,
+            y: 0,
+            scale: 1,
             filter: "blur(0px)",
-            opacity: "1",
+            
             borderRadius: "0px"
         })
         gsap.to(".clip_path", {
@@ -1062,7 +1074,7 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             }, 
             backgroundColor: "rgba(242, 1, 148, 0)",
             scale: 7,
-                display: "none"
+                // display: "none"
         })
         gsap.to(".approach__wrapper", {
             scrollTrigger: {
@@ -1091,6 +1103,16 @@ gsap.to(".services__item_wrapper-6 .services__line", {
             opacity: "1"
         })
         gsap.to(".handwritten_stroke", {
+            scrollTrigger: {
+                trigger: ".footer",
+                start: "bottom-=5% bottom",
+                end: "bottom bottom",
+                markers: false,
+            },
+            // animation: "5s forwards dash"
+            display: "inline-block"
+        })
+        gsap.to(".hand", {
             scrollTrigger: {
                 trigger: ".footer",
                 start: "bottom-=5% bottom",

@@ -25,7 +25,9 @@
   <path id="handwritten_path" fill= "none" stroke= "#E5097F" stroke-width= "2.8" stroke-linecap= "round" stroke-linejoin= "round"  stroke-miterlimit= "22.9256" d="M82 2.7c-7.9,0.4 -12.2,-1.6 -25.5,-1.3 -13.6,0.4 -41.3,-0.6 -51.2,9 -17.2,17 26.9,27.8 35,28.5 33,2.8 63.6,5 96.9,4.4 29.5,-0.6 68.9,6.5 97.4,-1.2 12.1,-3.2 40.8,-8.5 30.4,-23.6 -8.9,-12.9 -37.4,-9.5 -41.2,-9.7 -15.3,-0.5 -29.6,-0.2 -44.9,-2.3 -23.6,-3.3 -38.4,-1.4 -61.1,-0.5 -9.5,0.4 -16.2,-2.8 -26,-0.9 -13.6,2.7 -63.2,2 -71.4,10.3"/>
 
 </svg>
+<img class="hand" src="/img/hand.svg" loading="lazy" alt="">
                     </a>
+                    
                 </div>
             </div>
             <div class="footer__social">

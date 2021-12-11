@@ -224,6 +224,10 @@ header {
 
 .type-wrap {
     color: #F20194;
+    visibility: hidden;
+}
+.type-wrap.visible{
+    visibility: visible;
 }
 
 .typed-strings:last-child {
@@ -735,6 +739,9 @@ footer .title {
 .footer__social, .footer__contacts {
     margin-top: 24px;
 }
+.handwritten_stroke {
+    display: none;
+}
 .social__text {
     display: flex;
     justify-content: flex-start;
@@ -753,28 +760,13 @@ footer .title {
 .footer__feedback_link {
     position: relative;
 }
-.handwritten_stroke {
-    display: none;
-    position: absolute;
-    top: -8px;
-left: -36px;
-    
 
-}
-#handwritten_path {
-stroke-dasharray: 1000;
-
-height: 100%;
-stroke-dashoffset: 1000;
-animation: 9s 2s forwards dash;
-
-}
-@keyframes dash {
-    to {
-      stroke-dashoffset: 0;
-    }
+  .contacts__text {
+      position: relative;
   }
-
+.hand {
+    display: none;
+}
 .social__text a {
     display: block;
     margin-bottom: 16px;
